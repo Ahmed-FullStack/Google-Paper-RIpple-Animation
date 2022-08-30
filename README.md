@@ -35,7 +35,7 @@ If you want to change the waves color change the bg property in css
 For Javascript
 
 ```js
-import PaperRipple from './PaperRipple'
+import PaperRipple from './PaperRipple.js'
 
 const buttons = document.querySelectorAll('.ripple')
 

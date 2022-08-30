@@ -1,4 +1,4 @@
-import PaperRipple from './PaperRipple'
+import PaperRipple from './PaperRipple.js'
 
 const buttons = document.querySelectorAll('.ripple')
 
