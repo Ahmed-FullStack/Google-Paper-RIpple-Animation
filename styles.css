@@ -18,7 +18,7 @@ a {
 }
 
 .cl-bg {
-	--cl-bg: hsl(0 0% 35% / 0.3);
+	--cl-bg: hsl(0 0% 35% / 0.1);
 	position: relative;
 }
 .cl-bg::before {
