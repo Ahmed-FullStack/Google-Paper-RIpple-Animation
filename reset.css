@@ -8,9 +8,7 @@
 	scroll-behavior: smooth;
 	scroll-padding: 1em;
 }
-*,
-*::before,
-*::after {
+:where(*, *::before, *::after) {
 	box-sizing: border-box;
 	font-family: 'Google Sans', sans-serif;
 }
@@ -29,6 +27,8 @@
 }
 
 :where(a) {
+	user-select: none;
+	-webkit-user-drag: none;
 	text-decoration: none;
 	color: var(--reset-anchor-clr);
 	display: inline-block;
@@ -41,12 +41,17 @@
 }
 
 :where(button) {
+	user-select: none;
 	border: none;
 	font-size: 1rem;
 	padding: 0.5em 1em;
 	outline: none;
 }
-
+@supports (cursor: clickable) {
+	button {
+		cursor: clickable;
+	}
+}
 :where(ul) {
 	list-style: none;
 	padding: 0;

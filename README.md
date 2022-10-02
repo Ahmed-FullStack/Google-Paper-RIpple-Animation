@@ -17,7 +17,7 @@ Import reset.css and paper-ripple.css in your main stylessheet
 
 ```css
 @import url(../reset.css);
-@import url(./paper-ripple.css);
+@import url(./paperRipple/paperRipple.css);
 ```
 
 If you want to change the waves color change the bg property in css
@@ -35,9 +35,9 @@ If you want to change the waves color change the bg property in css
 For Javascript
 
 ```js
-import PaperRipple from './PaperRipple.js'
-
-const buttons = document.querySelectorAll('.ripple')
-
-PaperRipple(buttons)
+import PaperRipple from './paperRipple/PaperRipple.js'
+const btns = document.querySelectorAll('.ripple')
+btns.forEach(btn => {
+	new PaperRipple(btn)
+})
 ```
