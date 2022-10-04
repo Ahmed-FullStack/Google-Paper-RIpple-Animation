@@ -1,6 +1,6 @@
 # Google Paper Ripple Animation
 
-Example at codepen https://codepen.io/ahmed_ashraf-developer/pen/JjLgNLY
+Example at <a href="https://codepen.io/ahmed_ashraf-developer/pen/JjLgNLY">codepen</a>
 
 ## Usage
 
